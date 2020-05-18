@@ -16,9 +16,11 @@ public class PetLab {
         System.out.println(pet2.getAge());
 
         // examples with Circle class
+        // instantiating Circle class using no args constructor
         Circle circle1 = new Circle();
         System.out.printf("The circle has radius of %f and area of %f\n", circle1.getRadius(), circle1.getArea());
 
+        // instantiating Circle class using constructors with one or more parameters
         Circle circle2 = new Circle(2.0);
         System.out.printf("The circle has radius of %f and area of %f\n", circle2.getRadius(), circle2.getArea());
 
@@ -29,9 +31,7 @@ public class PetLab {
         Circle circle4 = new Circle();
         // demonstrate how getters and setters are utilized together
         circle4.setRadius(5.5);
-        System.out.println("radius is: " + circle4.getRadius());
         circle4.setColor("green");
-        System.out.println("color is: " + circle4.getColor());
 
         // call toString() method that was created in circle
         System.out.println(circle4.toString());
